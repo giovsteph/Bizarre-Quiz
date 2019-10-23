@@ -1,0 +1,120 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background-image: url(https://images3.alphacoders.com/831/831577.png);
+    background-size: cover;
+    font-size: 30px;
+}
+
+#quiz {
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    color: white;
+    border-radius: 20px;
+    float: left;
+}
+
+#button {
+    background: #AE2960;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#button:hover {
+    background: #4BAD13;
+    border: 1px solid #5A2C3F;
+    color: black;
+    cursor: pointer;
+}
+
+#after_submit {
+    visibility: hidden;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+#picture {
+    width: 475px;
+    height: 345px;
+    float: left;
+}
+
+#mc {
+    display: inline;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+#quizzie {
+    display: none;
+}
+
+#seccionDos {
+    display: none;
+}
+
+#click1 {
+    background: #AE2960;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#click1:hover {
+    background: #4BAD13;
+    border: 1px solid #5A2C3F;
+    color: black;
+    cursor: pointer;
+}
+
+#click2 {
+    background: #AE2960;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+#click2:hover {
+    background: #4BAD13;
+    border: 1px solid #5A2C3F;
+    color: black;
+    cursor: pointer;
+}
+
+#input {
+    color: #45172B;
+    background-color: #DBA5BD;
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#userMsg {
+    text-transform: capitalize;
+}
+
+#quizzie {
+    font-size: 25px;
+}
