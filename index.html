@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Jojo's Quiz!</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+
+</head>
+
+
+<body>
+
+    <div id="quiz" name="quiz">
+        <div id="seccionUno" class="title">
+            <h1>Welcome to the Bizzare Quiz</h1><br>
+
+            <br>
+            <p>What's your stand name?</p>
+
+            <input type="input" id="input" onkeyup="showMsg()" placeholder="Your Stand Name Here" autofocus>
+            <input type="submit" id="click1" class="button" type="button" name="button" onclick="comenzarJuego()" value="Continue"><br>
+        </div>
+
+
+        <div id="seccionDos">
+            <p> Hello, <span id="userMsg"></span> ! <br></p>
+
+            <p>Are you ready?</p>
+            <button class="button" type="button" id="click2" onclick=TriviaA()>START QUIZ!</button>
+        </div>
+
+
+        <div id=quizzie>
+            <form id="quiz" name="quiz">
+
+                <p class="questions">What is the name of the Foundation that discovers the Stone Masks and the Pillar Man?</p>
+                <input type="radio" id="mc" name="question1" value="Joestar"> Joestar Family Foundation<br>
+                <input type="radio" id="mc" name="question1" value="Speedwagon"> Speedwagon Foundation<br>
+                <input type="radio" id="mc" name="question1" value="Jonathan"> Jonathan Joestar<br>
+
+                <p class="questions">What is the country of origin of General Von Stroheim?</p>
+                <input type="radio" id="mc" name="question2" value="Germany"> Germany<br>
+                <input type="radio" id="mc" name="question2" value="Denmark"> Denmark<br>
+                <input type="radio" id="mc" name="question2" value="Japan"> Japan<br>
+
+                <p class="questions">What is the japanese name that Jotaro's mother wants to be called?</p>
+                <input type="radio" id="mc" name="question3" value="Seiko"> Seiko<br>
+                <input type="radio" id="mc" name="question3" value="Aiko"> Aiko<br>
+                <input type="radio" id="mc" name="question3" value="Keiko"> Keiko<br>
+                <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+            </form>
+        </div>
+
+
+
+        <div id="after_submit">
+            <p id="number_correct"></p>
+            <p id="message"></p>
+            <img id="picture">
+            <input id="button" type="button" value="Play Again" onclick="reiniciarJuego();">
+
+        </div>
+
+
+
+
+</body>
+
+</html>
