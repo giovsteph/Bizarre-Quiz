@@ -1,11 +1,6 @@
-# triviaReloaded
-Trivia 2nd Version
+![jonathan](https://i.imgur.com/q4fqBW3.jpg)
 
+## Bizarre Quiz
 
-Iteración Ejercicio Trivia
-
-
-Tema: Jojo's Bizarre Adventure
-
-
-Giovanna PC
+My first project with JS, HTML5 & CSS3.
+A simple trivia web app.
